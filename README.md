@@ -13,8 +13,8 @@
 三把钥匙自己申请，不要发到群里，也不要提交到 Git：
 
 1. Cursor 账号。安装时脚本会给出登录链接。
-2. [国际化平台](https://intl-oss.p1.cn/) 的 API Key。右上角头像 → 账号管理 → 新建 API Key。来源 IP 填 `10.0.0.0/8`，最低 ops-cli 版本留空。完整 Key 以 `sk_` 开头，只显示一次。
-3. [钉钉开发者后台](https://open-dev.dingtalk.com/) 的企业内部应用。添加机器人，消息接收模式选 **Stream**，发布应用版本。复制 Client ID 和 Client Secret。一个机器人只给自己用，不要加群。
+2. ops-cli 的 API Key。说明见 [国际化 Ops-cli 使用说明](https://intl-wiki.p1.cn/pages/viewpage.action?pageId=114920065)。Omi / CoCome 打开 [账号页](https://intl-oss.p1.cn/user/basic)，进入「账号 → API Keys」新建。来源 IP 填 `10.0.0.0/8`，最低 ops-cli 版本留空。完整 Key 以 `sk_` 开头，只显示一次。
+3. 钉钉 Stream 机器人的 Client ID 和 Client Secret。打开 [钉钉开发者后台](https://open-dev.dingtalk.com/)，应用开发 → 创建企业内部应用。左侧「凭证与基础信息」复制 Client ID、Client Secret。再在「添加应用能力 → 机器人」里把消息接收模式选成 **Stream**，不要填 HTTP 地址。最后到「版本管理与发布」发布一版，不发布则钉钉里找不到这个机器人。不要把机器人加进群。
 
 ## 安装
 
