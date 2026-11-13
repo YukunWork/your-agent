@@ -1,0 +1,23 @@
+install.sh
+  s_986fb907cc9c17::t_75cf924761e603 1-170,176-314,317-450
+  s_986fb907cc9c17::t_58615712a0f482 171-175
+  s_986fb907cc9c17::t_0de170c2474ed0 315-316
+README.md
+  s_986fb907cc9c17::t_674fb82483cecc 1-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "b373601c3cc411fc585b5705ccc2767eef988fe7",
+  "prompts": {},
+  "sessions": {
+    "s_986fb907cc9c17": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b5da3346-9a2b-4d2f-a00e-b0be417d3408",
+        "model": "grok-4.7"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
