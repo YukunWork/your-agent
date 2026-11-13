@@ -1,0 +1,19 @@
+README.md
+  s_986fb907cc9c17::t_7d2f6256675e4f 16-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "3ef4a4774129cc57720693d40eb31e7c5c4d67e1",
+  "prompts": {},
+  "sessions": {
+    "s_986fb907cc9c17": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b5da3346-9a2b-4d2f-a00e-b0be417d3408",
+        "model": "grok-4.7"
+      },
+      "human_author": "unknown"
+    }
+  }
+}
